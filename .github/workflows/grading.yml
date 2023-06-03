@@ -16,7 +16,7 @@ jobs:
         id: events
         uses: ./.github/actions/local-action
         with:
-          exercise-token: ${{secrets.EXERCISE_PAT}}
+          exercise-token: ${{secrets.EXERCISECODESECRET}}
 
       - name: Grading results
         uses: githubtraining/looking-glass-action@v1.0.0
